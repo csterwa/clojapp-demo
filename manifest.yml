@@ -3,5 +3,6 @@ applications:
 - name: clojapp-c007
   memory: 512M
   instances: 1
-  path: target/clojapp_c007-0.1.0-SNAPSHOT-standalone.jar
+  buildpack: git://github.com/mstine/heroku-buildpack-clojure.git
+  #path: target/clojapp_c007-0.1.0-SNAPSHOT-standalone.jar
 
